@@ -10,9 +10,9 @@ with open('config.json') as config_file:
 
 
 client = TelegramClient(
-	data['session_name'],
-	data['api_id'],
-	data['api_hash']
+    data['session_name'],
+    data['api_id'],
+    data['api_hash']
 )
 
 
